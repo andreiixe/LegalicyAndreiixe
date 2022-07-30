@@ -1,0 +1,60 @@
+
+      body {
+        padding-bottom: 90px;
+      }
+      
+ body {
+ font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  max-width: 1600px;
+ background: url('image/background.png');
+  margin: 0 auto;
+}
+
+
+
+h1.titles{
+  color: rgb(255, 255, 255);
+}
+h1.titles::selection{
+  background-color: rgb(252, 224, 224);
+  color:black;
+}
+a.links{
+  color: white;
+}
+a.links::selection{
+  background-color: rgb(255, 0, 0);
+  color:black;
+}
+
+h2.titles {
+    color: #ffffff;
+}
+
+h2.titles::selection {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+/* This makes tables look old-timey: */
+table {
+    margin: 0 auto; /* this centers the nav bar, which is a table */
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+th, td {
+    padding: 5px;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background: rgba(255, 0, 0, 0.59); /* semi-transparent white */
+}
+
+
+
