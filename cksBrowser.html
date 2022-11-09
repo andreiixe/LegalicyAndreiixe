@@ -10,13 +10,10 @@
                     <tbody>
                         <tr>
                             <td bgcolor="red">
-                                <a href="index.html" style="color:white;">Home</a>
+                                <a href="aboutme.html" style="color:white;">About me</a>
                             </td>
                             <td bgcolor="red">
                                 <a href="Blog.html" style="color:white;">My Blog</a>
-                            </td>
-                            <td bgcolor="red">
-                                <a href="aboutme.html" style="color:white;">About Me</a>
                             </td>
                             <td bgcolor="red">
                                 <a href="links.html" style="color:white;">Links</a>
@@ -31,12 +28,32 @@
         </center>
         <br>
         <center>
-            <h1>Legalicy Andreiixe</h1>
-            <img src="image/bluebar.gif">
-            <h2>My Cat</h2>
-            <p>I gave the cat, but as always I have other cats. Soon I will come with new pictures.</p>
-            <img src="image/bluebar.gif">
+        <p>The cookieEnabled property returns true if cookies are enabled:</p>
 
-        </center>
+<p id="cookie"></p>
+
+<script>
+document.getElementById("cookie").innerHTML =
+"navigator.cookieEnabled is " + navigator.cookieEnabled;
+</script>
+<br>
+<p>The appVersion property returns version information about the browser:</p>
+
+<p id="Version"></p>
+
+<script>
+document.getElementById("Version").innerHTML = navigator.appVersion;
+</script>
+<br>
+<p>The platform property returns the browser platform (operating system):</p>
+
+<p id="platform"></p>
+
+<script>
+document.getElementById("platform").innerHTML = 
+"navigator.platform is " + navigator.platform;
+</script>
+</center>
+
     </body>
 </html>
