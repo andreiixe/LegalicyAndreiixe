@@ -5,23 +5,40 @@
     </head>
     <body bgcolor="#FFFFFF">
         <center>
-            <img src="image/NavBarupd.gif" style="border: none;" usemap="#navbar" width="400" height="40">
+            <img src="image/Navbar.gif" style="border: none;" usemap="#navbar" width="400" height="40">
             <map name="navbar">
                 <!--Aici incepe distractia-->
                 <area shape="rect" coords="21,0,90,38" href="index.html">
                 <area shape="rect" coords="108,0,182,39" href="aboutme.html">
-                <area shape="rect" coords="200,0,289,39" href="blogBeta1.html">
+                <area shape="rect" coords="200,0,289,39" href="blogBeta2.html">
                 <area shape="rect" coords="308,0,377,40" href="links.html">
             </map>
             <br><img src="image/new.gif" width="50" height="30">
             <br><br><br><br>
             <p>
                 <font size="6">Welcome To</font>
-                <font size="6" color="orange">Andreiixe</font>
-                <font size="6" color="red">Legalicy</font>
+                <font size="6" color="orange">Legalicy</font>
+                <font size="6" color="red">Andreiixe</font>
                 <br>
                 <br>
                 <font size="4">I was waiting for Christmas</font>
+                <p id="timer"></p>
+                <script>
+                    var countDownDate = new Date("Dec 23, 2022 00:01:10").getTime();
+                    var x = setInterval(function() {
+                        var now = new Date().getTime();
+                        var distance = countDownDate - now;
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer").innerHTML = "Merry Christmas";
+                        }
+                    }, 1000);
+                </script>
                 <br>
             </p>
             <img src="image/pikachu.gif">
