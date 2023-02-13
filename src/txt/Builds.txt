@@ -1,3 +1,13 @@
+Build 310
+-Updated links
+-Added support for IBM ThinkPad R51/R51e
+-Update storage files txt to src/txt
+-updates links
+-Support page contain 
+ ->Download links on legalicy servers
+ -> Bugs windows 8 build 7850
+ -> install graphics
+
 Build 300
 -Rebuild The Website
 -Updated style

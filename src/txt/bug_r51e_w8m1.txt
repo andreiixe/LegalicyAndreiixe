@@ -1,0 +1,27 @@
+============================================================
+==             Bugs Windows 8 build 7850                  ==
+============================================================
+Tested on:         IBM ThinkPad R51e
+============================================================
+Specifications
+CPU Intel Celetron M 1,60GHz
+RAM 2GB (one stick DDR2)
+GRAPHICS ATI Radeon XPress 200M 
+=============================================================
+Bugs & olther thinks
+
+-At the beginning, using windows beta, it will run slowly (I don't know why),
+after you manage to install the graphics, everything will run perfectly.
+
+-Can't find the activator to activate Windows 8 build 7850? 
+I think I have a solution, search through the files at andreiixefiles and download from there :).
+(Install the Windows 8 build 7850 Professional version, 
+because I don't know why the other versions don't work, they simply don't activate).
+
+-For some dubious reason, Windows crashes when I plug in an external hdd, so I recommend only plugging in a USB stick.
+
+============================================================
+!Attention
+The bugs differ from one system to another, if you want to help me add here the bugs you found for this system,
+go to the home page and click on contact (explain what bug you found and some pictures only on IBM ThinkPad R51/R51e).
+=============================================================

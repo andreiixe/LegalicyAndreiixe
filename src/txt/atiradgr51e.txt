@@ -1,0 +1,24 @@
+////////////////////////////////////////////////////////////////////
+///             Tutorial install ATI Radeon Xpress Series        ///
+///                On windows Vista, 7, 8 build 7850             ///
+///                       By Andreiixe Dev                       ///
+////////////////////////////////////////////////////////////////////
+
+=====To install the graphics=====
+Extract and open the folder ATI Drivers 
+--> Click to the Folder "Double driver" 
+--> Click dd.exe (run as administrator) 
+--> Click Restore 
+--> Locate Backup 
+--> Olther location 
+--> Locate the Driver "ATI Drivers" 
+( Click "Ati Radeon Xpress 200m Drivers" => "IBM ThinkPad R51e" => "Display" => Select "ATI Radeon Xpress Series" => Click OK) 
+--> Click OK 
+--> Click restore Now
+
+!If something appears in red, press yes install driver
+
+///////////////////////////////////////////////////////////////////////////////
+///          Sha1 : cbc4acae948ad77064701882be6b5d5ca8fa5b93                ///
+///Sha256 : e808f49f5ec5681f02add259c81bd670c31eb62abdfd4138901f2fd4b2792d61///
+///////////////////////////////////////////////////////////////////////////////
