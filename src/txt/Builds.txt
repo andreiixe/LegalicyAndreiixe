@@ -1,3 +1,11 @@
+Build 311
+-updated index
+-updated links
+-added link to andreiixe Kindle (working progress)
+-updated home button to new style
+-added ati driver link parts (host problem)
+-updated blog
+
 Build 310
 -Updated links
 -Added support for IBM ThinkPad R51/R51e

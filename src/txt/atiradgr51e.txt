@@ -5,7 +5,7 @@
 ////////////////////////////////////////////////////////////////////
 
 =====To install the graphics=====
-Extract and open the folder ATI Drivers 
+Extract the parts with winrar and open the folder ATI Drivers 
 --> Click to the Folder "Double driver" 
 --> Click dd.exe (run as administrator) 
 --> Click Restore 
