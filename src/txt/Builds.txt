@@ -1,3 +1,8 @@
+Build 311.4
+-Delete logo link (Blog)
+-Delete My News from Support
+-Fix Bugs Host Link
+
 Build 311.1
 -Updated bar gifs
 -updated ie ad
