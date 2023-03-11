@@ -1,3 +1,10 @@
+Build 311.5
+-Added new social links
+-corect spelling on links
+-added new links on links.html
+-update title on contact from Instant messengers
+-added a new things new3.gifs
+
 Build 311.4
 -Delete logo link (Blog)
 -Delete My News from Support
