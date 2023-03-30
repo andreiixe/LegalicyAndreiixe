@@ -1,3 +1,13 @@
+Build 311.5.3
+-Updated Blog link (to new stuff)
+-Updated Blog
+-Updated Link Bitview
+-updated comments index.html
+
+Build 311.5.1
+-Developer Blog release
+-Updated link updates
+
 Build 311.5
 -Added new social links
 -corect spelling on links

@@ -15,7 +15,16 @@
                                             <font color="#FF0000">
                                                 <b>&gt;</b>
                                                 <a href="../DevBlog/ChromXP.html">Chromium newer versions on Windows XP</a>
-                                                <font style="font-size:13px;">(12 March 2023)</font>&nbsp;<img src="../src/imgeo/new3.gif">
+                                                <font style="font-size:13px;">(12 March 2023)</font>
+                                            </font>
+                                        </font>
+                                        <br>
+                                        <font face="geneva,arial" size="-1">
+                                            <br>
+                                            <font color="#FF0000">
+                                                <b>&gt;</b>
+                                                <a href="#">DarkMode Website for old systems</a>
+                                                <font style="font-size:13px;">(Working Progress.,)</font>
                                             </font>
                                         </font>
                                         <p><br>
