@@ -1,3 +1,6 @@
+<?php
+/*Code login closed source*/
+?>
 <html>
     <head>
         <title>Legalicy Andreiixe | IBM ThinkPad R51e</title>
@@ -15,14 +18,15 @@
                         &nbsp;&nbsp;<tr valign="top">
                             <td colspan="2" width="430" valign="bottom" bgcolor="#FFBEBE">
                                 <!--:)))))))) spatiuuuuuu bossssss-->
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    [<a href="../Index.html">Home</a>]
+                                <p>
+                                    [<a href="../Index.php">Home</a>]
                                     [<a href="../blog.html">Blog</a>]
                                     [<a href="../link.html">Links</a>]
                                     [<a href="../src/txt/Builds.txt">What'sNew</a>]
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    User : [<?php /*Code login closed source*/?>]
                                 </p>
                             </td>
                         </tr>

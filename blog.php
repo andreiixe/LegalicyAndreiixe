@@ -1,3 +1,6 @@
+<?php
+/*Code login closed source*/
+?>
 <html>
     <head>
         <title>Legalicy Andreiixe | Blog</title>
@@ -11,35 +14,44 @@
                     <td width="140">
                         <img src="src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
                         <br>
-                        <a href="about.html">
+                        <a href="about.php">
                             <img src="src/Bar/about.gif" width="138" height="36" alt="About" border="0">
                         </a>
                         <br>
-                        <a href="link.html">
+                        <a href="link.php">
                             <img src="src/Bar/Links.gif" width="138" height="36" alt="Links" border="0">
                         </a>
                         <br>
                         <br>
-                        <!--Space-->
+                        <center>
+                            <table border="0" width="88%" cellpadding="3" cellspacing="0">
+                                <tbody><tr>
+                                    <td bgcolor="#FFBEBE" align="center">
+                                        <font face="geneva, arial" size="-1"><b>User</b><br>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code login closed source*/?></b></font><br><img src="src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout.php">Sign Out</a></font>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </center>
                         <br>
                         <br>
                         <!--/Extended opensource-->
                         <!--Olther Andreiixe links-->
                         <p>
-                            <font face="geneva, arial" size="-1">
+                        <font face="geneva, arial" size="-1">
                                 <a href="https://andreiixe.github.io/">Github Website</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="http://sleepkindle.rf.gd/">Andreiixe Kindle</a>
+                                <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="Support/IBMThinkR51e.html">Support</a>
+                                <a href="feedback.php">Feedback</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="feedback.html">Feedback</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
-                                <a href="linkus.html">Link to Us</a>
+                                <a href="linkus.php">Link to Us</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -88,6 +100,10 @@
                         </font>
                         <br>
                         <br>
+                        <font face="geneva,arial" size="+1"><b>Sat, Apr 15, 2023</b></font>
+                        <p>In the end, I got tired of the website being free :). But anyway, you only need a simple registration. There will be so much some changes here and there, but it will still be the best thing and a big step. And the php code should not exist on github :) for security reasons (in my opinion). There's not much to say about me, except that I don't ride the hell 43 km by bike anymore, because my head hurt and I couldn't play with my beloved minecraft. Shitty day. It took me a few days to do this, I mean 4 days, no joke. ahh see you with a new update.</p>
+                        <br>
+                        <br>
                         <font face="geneva,arial" size="+1"><b>Thu, March 30, 2023</b></font>
                         <p>Welcome to my own hell, how could I not write code in high school:). Anyway, I'm trying to make a version of the website in Darkmode , yes, I'm still working (honestly, it's a little harder. The first versions will be in alpha). The rest is that I'm have netflix and youtube premium, somehow I can afford to pay with my 200 lei ($44). Btw, I'm make the house more technological, with light bulbs, Google Home Stuff and etc..., so far I've spend about 900 lei (198 USD) on there things. After I'm done with everthing, I'il think about baccalaureate with study music in the background :)))</p>
                         <br>
@@ -109,9 +125,6 @@
                         <font face="geneva,arial" size="+1"><b>Tuesday 01/2023</b></font>
                         <p>Look, I'm coming back with what seems to be an update made by me, honestly the whole website was redone from scratch based on old aol.com. I worked all day for this update. I stabilized the code and ordered things. It was a lot of work, but I have to learn Romanian, some work that I need for my baccalaureate</p>
                         <br>
-                        <p>
-                            <font face="geneva,arial"><b>If you want to enter the old blog, look <a href="oldblog.html">here!</a></b></font>
-                        </p>
                         <p><br>
                             <table width="525" border="0" cellpadding="4" cellspacing="2">
                             <tbody><tr>
@@ -124,7 +137,7 @@
                                 <td width="450" rowspan="3">&nbsp;</td>
                                 <td valign="bottom" bgcolor="#cccccc" align="center">
                                 <font face="geneva, arial" size="-1">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Home</a>
                                     </font>
                                 </td>
                             </tr>

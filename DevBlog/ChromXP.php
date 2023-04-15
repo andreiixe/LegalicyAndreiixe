@@ -1,3 +1,6 @@
+<?php
+/*Code login closed source*/
+?>
 <html>
     <head>
         <title>Legalicy Andreiixe | Chromium on Windows XP</title>
@@ -24,26 +27,32 @@
                         </a>
                         <br>
                         <br>
-                        <!--Space-->
+                        <center>
+                            <table border="0" width="88%" cellpadding="3" cellspacing="0">
+                                <tbody><tr>
+                                    <td bgcolor="#FFBEBE" align="center">
+                                        <font face="geneva, arial" size="-1"><b>User</b><br>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code login closed source*/?></b></font><br><img src="../src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout.php">Sign Out</a></font>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </center>
                         <br>
                         <br>
                         <!--/Extended opensource-->
                         <!--Olther Andreiixe links-->
                         <p>
-                            <font face="geneva, arial" size="-1">
+                        <font face="geneva, arial" size="-1">
                                 <a href="https://andreiixe.github.io/">Github Website</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="http://sleepkindle.rf.gd/">Andreiixe Kindle</a>
+                                <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="../Support/IBMThinkR51e.html">Support</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
-                                <a href="../feedback.html">Feedback</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
-                                <a href="../linkus.html">Link to Us</a>
+                                <a href="linkus.php">Link to Us</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -145,7 +154,7 @@
                                 <td width="450" rowspan="3">&nbsp;</td>
                                 <td valign="bottom" bgcolor="#cccccc" align="center">
                                 <font face="geneva, arial" size="-1">
-                                    <a href="../index.html">Home</a>
+                                    <a href="../index.php">Home</a>
                                     </font>
                                 </td>
                             </tr>

@@ -1,7 +1,10 @@
+<?php
+/*Code login closed source*/
+?>
 <!--Starting up Website Legalicy Andreiixe-->
 <html>
     <head>
-        <title>Welcome to Legalicy Andreiixe</title>
+        <title>Hi <?php echo $row["name"];?>, welcome to legalicy</title>
     </head>
     <body topmargin="5" leftmargin="5" bgcolor="#ffffff" link="#0000CC" vlink="#660099" alink="#cccccc">
         <!--NavBar Left-->
@@ -12,20 +15,34 @@
                     <td width="140">
                         <img src="src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
                         <br>
-                        <a href="about.html">
+                        <a href="about.php">
                             <img src="src/Bar/about.gif" width="138" height="36" alt="About" border="0">
                         </a>
                         <br>
-                        <a href="blog.html">
+                        <a href="blog.php">
                             <img src="src/Bar/Blog.gif" width="138" height="36" alt="Blog" border="0">
                         </a>
                         <br>
-                        <a href="link.html">
+                        <a href="link.php">
                             <img src="src/Bar/Links.gif" width="138" height="36" alt="Links" border="0">
                         </a>
                         <!--/Navbar bar I-->
                         <br>
                         <br>
+                        <!--user broo-->
+                        <center>
+                            <table border="0" width="88%" cellpadding="3" cellspacing="0">
+                                <tbody><tr>
+                                    <td bgcolor="#FFBEBE" align="center">
+                                        <font face="geneva, arial" size="-1"><b>Welcome,</b><br>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php/*Code login closed source*/?></b></font><br><img src="src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout.php">Sign Out</a></font>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </center>
                         <!--Space BRRRRRRRRRRRRRRRRRRRRRRRRRRRR-->
                         <br>
                         <br>
@@ -36,13 +53,13 @@
                                 <a href="https://andreiixe.github.io/">Github Website</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="Support/IBMThinkR51e.html">Support</a>
+                                <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="feedback.html">Feedback</a>
+                                <a href="feedback.php">Feedback</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="linkus.html">Link to Us</a>
+                                <a href="linkus.php">Link to Us</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -126,7 +143,7 @@
                                             <font color="#FF0000">></font>
                                         </td>
                                         <td>
-                                            <font size="-1" face="geneva, arial">New socials? Why don't you <a href="contactme.html">look</a> where you can still message me. </font>
+                                            <font size="-1" face="geneva, arial">New socials? Why don't you <a href="contactme.php">look</a> where you can still message me. </font>
                                             <font size="+1">&nbsp;</font>
                                         </td>
                                     </tr>
@@ -135,7 +152,7 @@
                                             <font color="#FF0000">></font>
                                         </td>
                                         <td>
-                                            <font size="-1" face="geneva, arial">Are you looking to resume support from chrome on windows xp? <a href="DevBlog/Blogdev.php">That's Here</a></font>
+                                            <font size="-1" face="geneva, arial">Are you looking to resume support from chrome on windows xp? <a href="DevBlog/Develop.php">That's Here</a></font>
                                             <font size="+1">&nbsp;</font>
                                         </td>
                                     </tr>
@@ -159,13 +176,13 @@
                                             </tr>
                                             <tr>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
-                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="Support/IBMThinkR51e.html">Supports</a></font></td>
+                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="Support/IBMThinkR51e.php">Supports</a></font></td>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
-                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="DevBlog/Blogdev.php">Blog Develoment</a></font></td>
+                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="DevBlog/Develop.php">Blog Develoment</a></font></td>
                                             </tr>
                                             <tr>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
-                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="blog.html">Blog</a></font></td>
+                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="blog.php">Blog</a></font></td>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
                                                 <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="https://github.com/andreiixe/LegalicyAndreiixe">Source Code</a></font></td>
                                             </tr>
@@ -195,11 +212,11 @@
                                                         </font>
                                                         <font size="1"><br>&nbsp;<br></font>
                                                         <nobr>
-                                                            <a href="abouttheproject.html">About the Project</a>
+                                                            <a href="abouttheproject.php">About the Project</a>
                                                         </nobr>
                                                         &nbsp;&nbsp;&nbsp;
                                                         <nobr>
-                                                            <a href="contactme.html">Contact Andreiixe</a>
+                                                            <a href="contactme.php">Contact Andreiixe</a>
                                                         </nobr>
                                                     </td>
                                                 </tr>

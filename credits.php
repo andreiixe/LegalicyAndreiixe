@@ -1,6 +1,9 @@
+<?php
+/*Code login closed source*/
+?>
 <html>
     <head>
-        <title>Legalicy Andreiixe | Link to Us</title>
+        <title>Legalicy Andreiixe | Team</title>
     </head>
     <body topmargin="5" leftmargin="5" bgcolor="#ffffff" link="#0000CC" vlink="#660099" alink="#cccccc">
         <table border="0" width="590" cellpadding="0" cellspacing="0">
@@ -11,39 +14,45 @@
                     <td width="140">
                             <img src="src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
                         <br>
-                        <a href="about.html">
+                        <a href="about.php">
                             <img src="src/Bar/about.gif" width="138" height="36" alt="About" border="0">
                         </a>
                         <br>
-                        <a href="blog.html">
+                        <a href="blog.php">
                             <img src="src/Bar/Blog.gif" width="138" height="36" alt="Blog" border="0">
                         </a>
                         <br>
-                        <a href="link.html">
+                        <a href="link.php">
                             <img src="src/Bar/Links.gif" width="138" height="36" alt="Links" border="0">
                         </a>
                         <br>
                         <br>
-                        <!--Space-->
+                        <center>
+                            <table border="0" width="88%" cellpadding="3" cellspacing="0">
+                                <tbody><tr>
+                                    <td bgcolor="#FFBEBE" align="center">
+                                        <font face="geneva, arial" size="-1"><b>User</b><br>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code login closed source*/?></b></font><br><img src="src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout.php">Sign Out</a></font>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </center>
                         <br>
                         <br>
                         <!--/Extended opensource-->
                         <!--Olther Andreiixe links-->
                         <p>
-                            <font face="geneva, arial" size="-1">
+                        <font face="geneva, arial" size="-1">
                                 <a href="https://andreiixe.github.io/">Github Website</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="http://sleepkindle.rf.gd/">Andreiixe Kindle</a>
+                                <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="Support/IBMThinkR51e.html">Support</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
-                                <a href="feedback.html">Feedback</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
-                                <a href="linkus.html">Link to Us</a>
+                                <a href="linkus.php">Link to Us</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -86,24 +95,38 @@
                     </td>
                     <!--/navbar-->
                     <td width="425">
+                        <hr size="1">
+                        <font face="geneva, arial" size="+1">
+                            <b>&nbsp;The Legalicy Andreiixe Team</b>
+                        </font>
+                        <hr size="1">
+                        <table border="0" cellspacing="0" cellpadding="0" width="415">
+                            <tbody>
+                                <tr>
+
+                                </tr>
+                            </tbody>
+                        </table>
                         <table border="0" cellspacing="0" cellpadding="5" width="415">
                             <tbody>
                                 <tr>
-                                    <td>
-                                        <font size="+1" face="geneva, arial"><b>Link to Us</b></font>
-                                        <hr size="1">
+                                    <td valign="top">
+                                        <font face="geneva,arial" size="-1">
+                                            <b>Web Design & UI Developer</b>
+                                            <ul>
+                                                Andrei Alexandru
+                                            </ul>
+                                        </font>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td colspan="2">
-                                        Add a link to LegalicyAndreiixe on your Web page, and give your visitors one-click access to the Web site.
-                                        <p>To use the official LegalicyAndreiixe link icon below, just copy the HTML under the logo and put it in your Web page.<br>&nbsp;</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <img src="src/images/LegalicyLogo.gif" width="138" height="34" border="0">
-                                        <p><code>&lt;a href="http://legalicyandreiixe.atwebpages.com/"&gt;&lt;img src="http://legalicyandreiixe.atwebpages.com/src/images/LegalicyLogo.gif" alt="LegalicyAndreiixe" width="138" height="34" border="1"&gt;&lt;/a&gt;</code></p>
+                                        <font face="geneva,arial" size="-1">
+                                            <br><b>
+                                                Special thanks
+                                            </b>
+                                            who enters this website and helps me to continue the website Legalicy Andreiixe.
+                                        </font>
                                     </td>
                                 </tr>
                             </tbody>
@@ -120,7 +143,7 @@
                                 <td width="450" rowspan="3">&nbsp;</td>
                                 <td valign="bottom" bgcolor="#cccccc" align="center">
                                 <font face="geneva, arial" size="-1">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Home</a>
                                     </font>
                                 </td>
                             </tr>

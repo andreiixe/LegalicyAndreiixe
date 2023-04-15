@@ -1,6 +1,9 @@
+<?php
+/*Code login closed source*/
+?>
 <html>
     <head>
-        <title>Legalicy Andreiixe | About</title>
+        <title>Legalicy Andreiixe | Link to Us</title>
     </head>
     <body topmargin="5" leftmargin="5" bgcolor="#ffffff" link="#0000CC" vlink="#660099" alink="#cccccc">
         <table border="0" width="590" cellpadding="0" cellspacing="0">
@@ -11,35 +14,45 @@
                     <td width="140">
                             <img src="src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
                         <br>
-                        <a href="blog.html">
+                        <a href="about.php">
+                            <img src="src/Bar/about.gif" width="138" height="36" alt="About" border="0">
+                        </a>
+                        <br>
+                        <a href="blog.php">
                             <img src="src/Bar/Blog.gif" width="138" height="36" alt="Blog" border="0">
                         </a>
                         <br>
-                        <a href="link.html">
+                        <a href="link.php">
                             <img src="src/Bar/Links.gif" width="138" height="36" alt="Links" border="0">
                         </a>
                         <br>
                         <br>
-                        <!--Space-->
+                        <center>
+                            <table border="0" width="88%" cellpadding="3" cellspacing="0">
+                                <tbody><tr>
+                                    <td bgcolor="#FFBEBE" align="center">
+                                        <font face="geneva, arial" size="-1"><b>User</b><br>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code login closed source*/?></b></font><br><img src="src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout.php">Sign Out</a></font>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </center>
                         <br>
                         <br>
                         <!--/Extended opensource-->
                         <!--Olther Andreiixe links-->
                         <p>
-                            <font face="geneva, arial" size="-1">
+                        <font face="geneva, arial" size="-1">
                                 <a href="https://andreiixe.github.io/">Github Website</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="http://sleepkindle.rf.gd/">Andreiixe Kindle</a>
+                                <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="Support/IBMThinkR51e.html">Support</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
-                                <a href="feedback.html">Feedback</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
-                                <a href="linkus.html">Link to Us</a>
+                                <a href="feedback.php">Feedback</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -82,64 +95,30 @@
                     </td>
                     <!--/navbar-->
                     <td width="425">
-                        <!--MainAbout me-->
-                        <table border="0" cellspacing="0" cellpadding="0" width="415">
+                        <table border="0" cellspacing="0" cellpadding="5" width="415">
                             <tbody>
                                 <tr>
-                                    <td valign="bottom" width="321">
-                                        <font face="geneva, arial" size="+1">
-                                            <b>
-                                                Who am I?
-                                            </b>
-                                        </font>
-                                        <hr size="1"></td>
+                                    <td>
+                                        <font size="+1" face="geneva, arial"><b>Link to Us</b></font>
+                                        <hr size="1">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        Add a link to LegalicyAndreiixe on your Web page, and give your visitors one-click access to the Web site.
+                                        <p>To use the official LegalicyAndreiixe link icon below, just copy the HTML under the logo and put it in your Web page.<br>&nbsp;</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <font face="geneva, arial" size="-1">
-                                            <b>About Me</b>
-                                        </font>
-                                        <br>
-                                        I am a student studying to become a full stack developer. This website is created to learn how the internet was formed in the years 1997 or 2000.
-                                        <p>
-                                            <font face="geneva, arial" size="-1">
-                                                <b>
-                                                    What is this website?<br>
-                                                </b>
-                                            </font>
-                                            It is a personal website with a 90's or 2000's vibe. In general, it is made to learn the beginnings of the Internet.
-                                        </p>
-                                        <p>
-                                            <font face="geneva, arial" size="-1">
-                                                <b>
-                                                    What old browsers does this website work on?<br>
-                                                </b>
-                                            </font>
-                                            This website was fully tested on a machine with windows xp. It is compatible with Internet Explorer 4.01, but with official tests it is fully compatible with Internet Explorer 6.0.
-                                        </p>
-                                        <p>
-                                            <font face="geneva, arial" size="-1">
-                                                <b>
-                                                    Are the images and website templates original?<br>
-                                                </b>
-                                            </font>
-                                            Of course yes, every file and image is original, but there is a but, It is a template of the website, it is based on old aol.com from 1997 or 1998 (of course from pictures to made from scratch).
-                                        </p>
-                                        <p>
-                                            <font face="geneva, arial" size="-1">
-                                                <b>
-                                                    Why are there ads on the website?<br>
-                                                </b>
-                                            </font>
-                                            The ads on the first page are not real, from my point of view I added them to give me a 90' vibe. Who knows, maybe there will be real ads :)).
-                                        </p>
+                                        <img src="src/images/LegalicyLogo.gif" width="138" height="34" border="0">
+                                        <p><code>&lt;a href="http://legalicyandreiixe.atwebpages.com/"&gt;&lt;img src="http://legalicyandreiixe.atwebpages.com/src/images/LegalicyLogo.gif" alt="LegalicyAndreiixe" width="138" height="34" border="1"&gt;&lt;/a&gt;</code></p>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                         <p><br>
-                            <table width="425" border="0" cellpadding="4" cellspacing="2">
+                            <table width="525" border="0" cellpadding="4" cellspacing="2">
                             <tbody><tr>
                                 <td colspan="2">
                                 <hr size="1">
@@ -147,10 +126,10 @@
                             </tr>
                             
                             <tr>
-                                <td width="350" rowspan="3">&nbsp;</td>
+                                <td width="450" rowspan="3">&nbsp;</td>
                                 <td valign="bottom" bgcolor="#cccccc" align="center">
                                 <font face="geneva, arial" size="-1">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Home</a>
                                     </font>
                                 </td>
                             </tr>
@@ -161,4 +140,4 @@
             </tbody>
         </table>
     </body>
-</html>   
+</html>

@@ -1,3 +1,6 @@
+<?php
+/*Code login closed source*/
+?>
 <html>
     <head>
         <title>Legalicy Andreiixe | Contact</title>
@@ -11,21 +14,33 @@
                     <td width="140">
                             <img src="src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
                         <br>
-                        <a href="about.html">
+                        <a href="about.php">
                             <img src="src/Bar/about.gif" width="138" height="36" alt="About" border="0">
                         </a>
                         
                         <br>
-                        <a href="blog.html">
+                        <a href="about.php">
                             <img src="src/Bar/Blog.gif" width="138" height="36" alt="Blog" border="0">
                         </a>
                         <br>
-                        <a href="link.html">
+                        <a href="link.php">
                             <img src="src/Bar/Links.gif" width="138" height="36" alt="Links" border="0">
                         </a>
                         <br>
                         <br>
-                        <!--Space-->
+                        <center>
+                            <table border="0" width="88%" cellpadding="3" cellspacing="0">
+                                <tbody><tr>
+                                    <td bgcolor="#FFBEBE" align="center">
+                                        <font face="geneva, arial" size="-1"><b>User</b><br>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code login closed source*/?></b></font><br><img src="src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout.php">Sign Out</a></font>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </center>
                         <br>
                         <br>
                         <!--/Extended opensource-->
@@ -35,16 +50,13 @@
                                 <a href="https://andreiixe.github.io/">Github Website</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="http://sleepkindle.rf.gd/">Andreiixe Kindle</a>
-                                <font size="+1">&nbsp;</font>
-                                <br>
                                 <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="feedback.html">Feedback</a>
+                                <a href="feedback.php">Feedback</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="linkus.html">Link to Us</a>
+                                <a href="linkus.php">Link to Us</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -179,7 +191,7 @@
                                         <tr>
                                             <td>
                                                 <font size="-1" face="geneva, arial">
-                                                    <b>Old Social Networks</b>&nbsp;&nbsp;&nbsp;<img src="src/imgeo/new3.gif">
+                                                    <b>Old Social Networks</b>&nbsp;&nbsp;&nbsp;
                                                 </font>
                                                 <p>
                                                     I think I got lost in the 2000s, I should go back to the present, but I don't want to ;)
@@ -220,7 +232,7 @@
                                     <td width="350" rowspan="3">&nbsp;</td>
                                     <td valign="bottom" bgcolor="#cccccc" align="center">
                                     <font face="geneva, arial" size="-1">
-                                        <a href="index.html">Home</a>
+                                        <a href="index.php">Home</a>
                                         </font>
                                     </td>
                                 </tr>
