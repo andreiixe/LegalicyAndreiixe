@@ -1,5 +1,5 @@
 <?php
-/*Code login closed source*/
+/*Code closed source*/
 ?>
 <html>
     <head>
@@ -19,14 +19,14 @@
                             <td colspan="2" width="430" valign="bottom" bgcolor="#FFBEBE">
                                 <!--:)))))))) spatiuuuuuu bossssss-->
                                 <p>
-                                    [<a href="../Index.php">Home</a>]
-                                    [<a href="../blog.html">Blog</a>]
-                                    [<a href="../link.html">Links</a>]
+                                    [<a href="../index">Home</a>]
+                                    [<a href="../blog">Blog</a>]
+                                    [<a href="../link">Links</a>]
                                     [<a href="../src/txt/Builds.txt">What'sNew</a>]
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    User : [<?php /*Code login closed source*/?>]
+                                    User : [<?php /*Code closed source*/ ?>]
                                 </p>
                             </td>
                         </tr>

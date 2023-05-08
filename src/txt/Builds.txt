@@ -1,3 +1,20 @@
+Build 444
+-added profile page
+-added Biography
+-added Edit Username
+-added edit avatar
+-removed home button
+-edited logo to redirect to home
+-Updated ad
+-removed IE ad
+
+Build 400.2.1
+-added at iregistration can put your image profile
+-fixed bugs on index, support,devblog.
+-updated Database for enter the profile image
+-removed extension php form top bar
+-added automatic Date 
+
 Build 400.1.5
 -Fixed Login to work windows 3.11
 -added new tag on registration not support windows 3.11
@@ -11,7 +28,6 @@ Build 400.1
 -Added session cokie
 -Updated website in PHP
 -Deleted Old Blog
-
 Build 311.5.3
 -Updated Blog link (to new stuff)
 -Updated Blog

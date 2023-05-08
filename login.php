@@ -1,5 +1,5 @@
 <?php
-/*Code login closed source*/
+/*Code closed source*/
 ?>
 <html>
     <head>
@@ -34,7 +34,7 @@
                         <font face="geneva, arial" size="-1"><b>E-mail or Username</b></font>
                     </td>
                     <td>
-	                    <input type='text' name='/*Code login closed source*/' id='/*Code login closed source*/' required>
+	                    <input type='text' name='usernameemail' id='usernameemail' required>
 	                </td>
                 <tr>
                 <tr valign="middle">
@@ -42,14 +42,14 @@
 	                    <font face="geneva, arial" size="-1"><b>Password</b></font>
 	                </td>
 	                <td>
-                    <input type="password" id="/*Code login closed source*/" name="/*Code login closed source*/" required>
+                    <input type="password" id="password" name="password" required>
 	                </td>
                 </tr>
                 </tr>
                 <tr valign="middle">
 	                <td>&nbsp;</td>
 	                <td>
-                        &nbsp; &nbsp; &nbsp; &nbsp;<input type="submit" name="/*Code login closed source*/" value="/*Code login closed source*/">
+                        &nbsp; &nbsp; &nbsp; &nbsp;<input type="submit" name="submit" value="Login">
 	                    <br>
                         <br>                       
 	                </td>
@@ -58,7 +58,7 @@
         </table>
         <table border="0" cellspacing="0" cellpadding="5" width="415">
                     <tr>
-	                    <td><font face="geneva, arial" size="-1">* Do you want an account? <a href="registration.php">Click here to have one.</a></font><p><font face="geneva, arial" size="-1"></font>
+	                    <td><font face="geneva, arial" size="-1">* Do you want an account? <a href="registration">Click here to have one.</a></font><p><font face="geneva, arial" size="-1"></font>
 	                </p></td>
                     </tr>
                     

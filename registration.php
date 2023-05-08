@@ -1,6 +1,7 @@
 <?php
-/*Code login closed source*/
+/*Code closed source*/
 ?>
+
 <html>
     <head>
         <title>Legalicy Andreiixe | Login</title>
@@ -37,22 +38,24 @@
 	                            </p>
                             </td>
                             <form class='' action='' method='post' autocomplete='off'>
-                            <tr valign="middle">
-                            
-	                            <td align="right">
-	                                <font face="geneva, arial" size="-1"><b>Username</b></font>
-	                            </td>
-	                            <td>
-	                            <input type='text' name='name' id='name' required value=""><br>
-	                            </td>
-                                <tr valign="middle">
-	                                <td align="right">
-	                                    <font face="geneva, arial" size="-1"><b>Confirm Username</b></font>
-	                                </td>
-	                                <td>
-                                <input type='text' name='username' id='username' required value="">
-	                            </td>
-                                </tr>
+  <tr valign="middle">
+    <td align="right">
+      <font face="geneva, arial" size="-1"><b>Username</b></font>
+    </td>
+    <td>
+      <input type='text' name='name' id='name' required value=""><br>
+    </td>
+  </tr>
+  <tr valign="middle">
+    <td align="right">
+      <font face="geneva, arial" size="-1"><b>Confirm Username</b></font>
+    </td>
+    <td>
+      <input type='text' name='username' id='username' required value="">
+    </td>
+  </tr>
+  <input type="hidden" name="image" value="default-avatar.gif">
+<br>
                                 <tr valign="middle">
 	                                <td align="right">
 	                                    <font face="geneva, arial" size="-1"><b>Email</b></font>
@@ -99,7 +102,7 @@
                     <tr>
 	                    <td><font face="geneva, arial" size="-1">* Please do not add a real name or a password that you use on other social network sites, because this site is not safe!</font><p><font face="geneva, arial" size="-1"></font>
 	                </p></td>
-                    <td><font face="geneva, arial" style="color:red;" size="-1">* Registration on Windows 3.11 with Internet Explorer 5 is not supported for security reasons</font><p><font face="geneva, arial" size="-1"></font>
+                    <td><font face="geneva, arial" style="color:red;" size="-1">* Registration on Windows 3.11 with Internet Explorer 5 is not supported for security reasons!</font><p><font face="geneva, arial" size="-1"></font>
 	                </p></td>
                     </tr>
                     

@@ -1,5 +1,5 @@
 <?php
-/*Code login closed source*/
+/*Code closed source*/
 ?>
 <html>
     <head>
@@ -12,17 +12,19 @@
                     <!--Prima coloana-->
                     <!--NavBar-->
                     <td width="140">
+                        <a href="../index">
                         <img src="../src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
+                        </a>
                         <br>
-                        <a href="../about.html">
+                        <a href="../about">
                             <img src="../src/Bar/about.gif" width="138" height="36" alt="About" border="0">
                         </a>
                         <br>
-                        <a href="../blog.html">
+                        <a href="../blog">
                             <img src="../src/Bar/Blog.gif" width="138" height="36" alt="Blog" border="0">
                         </a>
                         <br>
-                        <a href="../link.html">
+                        <a href="../link">
                             <img src="../src/Bar/Links.gif" width="138" height="36" alt="Links" border="0">
                         </a>
                         <br>
@@ -31,10 +33,14 @@
                             <table border="0" width="88%" cellpadding="3" cellspacing="0">
                                 <tbody><tr>
                                     <td bgcolor="#FFBEBE" align="center">
-                                        <font face="geneva, arial" size="-1"><b>User</b><br>
-                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code login closed source*/?></b></font><br><img src="../src/imgeo/new3.gif">
+                                    <hr size="0.5" width="60">
+                                    <a href="../user">
+                                        <img src="../profile/<?php /*Code closed source*/?>" width = 100><br>
+                                    </a>
                                         <hr size="0.5" width="60">
-                                        <a href="signout.php">Sign Out</a></font>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code closed source*/ ?></b></font><br><img src="../src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="../signout">Sign Out</a></font>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -52,7 +58,7 @@
                                 <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="linkus.php">Link to Us</a>
+                                <a href="linkus">Link to Us</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -70,10 +76,6 @@
                         </font>
                         <!--/Host-->
                         <!--Msie-->
-                        <p>
-                            <font face="geneva, arial" size="-2"></font> 
-                            <img src="../src/Imagesads/IE4.gif" width="98" height="31" border="0">
-                        </p>
                         <!--/msie-->
                         <!--copyright (I added more because it looks cool)-->
                         <p>
@@ -147,15 +149,6 @@
                             <tbody><tr>
                                 <td colspan="2">
                                 <hr size="1">
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td width="450" rowspan="3">&nbsp;</td>
-                                <td valign="bottom" bgcolor="#cccccc" align="center">
-                                <font face="geneva, arial" size="-1">
-                                    <a href="../index.php">Home</a>
-                                    </font>
                                 </td>
                             </tr>
                             </tbody></table>

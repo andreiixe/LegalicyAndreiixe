@@ -1,3 +1,3 @@
 <?php
-/*Code login closed source*/
+/*Code closed source*/
 ?>

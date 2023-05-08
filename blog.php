@@ -1,5 +1,5 @@
 <?php
-/*Code login closed source*/
+/*Code closed source*/
 ?>
 <html>
     <head>
@@ -12,7 +12,9 @@
                     <!--Prima coloana-->
                     <!--NavBar-->
                     <td width="140">
+                    <a href="index">
                         <img src="src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
+                        </a>
                         <br>
                         <a href="about.php">
                             <img src="src/Bar/about.gif" width="138" height="36" alt="About" border="0">
@@ -27,10 +29,14 @@
                             <table border="0" width="88%" cellpadding="3" cellspacing="0">
                                 <tbody><tr>
                                     <td bgcolor="#FFBEBE" align="center">
-                                        <font face="geneva, arial" size="-1"><b>User</b><br>
-                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code login closed source*/?></b></font><br><img src="src/imgeo/new3.gif">
+                                    <hr size="0.5" width="60">
+                                    <a href="user">
+                                        <img src="profile/<?php /*Code closed source*/?>" width = 100><br>
+                                    </a>
                                         <hr size="0.5" width="60">
-                                        <a href="signout.php">Sign Out</a></font>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php /*Code closed source*/ ?></b></font><br><img src="src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout">Sign Out</a></font>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -69,10 +75,6 @@
                         </font>
                         <!--/Host-->
                         <!--Msie-->
-                        <p>
-                            <font face="geneva, arial" size="-2"></font> 
-                            <img src="src/Imagesads/IE4.gif" width="98" height="31" border="0">
-                        </p>
                         <!--/msie-->
                         <!--copyright (I added more because it looks cool)-->
                         <p>
@@ -98,6 +100,12 @@
                         <font size="+2" face="geneva,arial"><b>Blog
                             <font color="#ff0000">Beta 5</font></b>
                         </font>
+                        <br>
+                        <br>
+                        <font face="geneva,arial" size="+1"><b>Sun, May 07, 2023</b></font>
+                        <p>I'm coming back after a long time, I'm actually dying. I spent a few hours trying to solve the problem on the profile, but now it works (it looks bad, but I can't do anything). Anyway, the website has evolved a lot these months, I think I learned more after 3-4 installations of linux and windows, until I put my foot in until I installed windows 7, yes the site was modified in windows 7 ;) , at least the games run better than recent windows. Anyway, it's not a big deal about me, I'm thinking of living after I ran out of budget and I don't have money :((. Yes, I have at least a laptop in which I can update the website. That's all I have, if I die tomorrow it's good :)))).</p>
+                        <br>
+                        <br>
                         <br>
                         <br>
                         <font face="geneva,arial" size="+1"><b>Sat, Apr 15, 2023</b></font>
@@ -130,15 +138,6 @@
                             <tbody><tr>
                                 <td colspan="2">
                                 <hr size="1">
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td width="450" rowspan="3">&nbsp;</td>
-                                <td valign="bottom" bgcolor="#cccccc" align="center">
-                                <font face="geneva, arial" size="-1">
-                                    <a href="index.php">Home</a>
-                                    </font>
                                 </td>
                             </tr>
                             </tbody></table>

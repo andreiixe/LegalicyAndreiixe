@@ -1,10 +1,10 @@
 <?php
-/*Code login closed source*/
+/*Code closed source*/
 ?>
 <!--Starting up Website Legalicy Andreiixe-->
 <html>
     <head>
-        <title>Hi <?php echo $row["name"];?>, welcome to legalicy</title>
+        <title>Hi <?php /*Code closed source*/?>, welcome to legalicy</title>
     </head>
     <body topmargin="5" leftmargin="5" bgcolor="#ffffff" link="#0000CC" vlink="#660099" alink="#cccccc">
         <!--NavBar Left-->
@@ -13,17 +13,19 @@
                 <tr valign="top">
                     <!--Navbar bar I-->
                     <td width="140">
+                    <a href="index">
                         <img src="src/images/LegalicyLogo.gif" width="138" height="34" alt="Legalicy Andreiixe" border="0">
+                        </a>
                         <br>
-                        <a href="about.php">
+                        <a href="about">
                             <img src="src/Bar/about.gif" width="138" height="36" alt="About" border="0">
                         </a>
                         <br>
-                        <a href="blog.php">
+                        <a href="blog">
                             <img src="src/Bar/Blog.gif" width="138" height="36" alt="Blog" border="0">
                         </a>
                         <br>
-                        <a href="link.php">
+                        <a href="link">
                             <img src="src/Bar/Links.gif" width="138" height="36" alt="Links" border="0">
                         </a>
                         <!--/Navbar bar I-->
@@ -34,10 +36,14 @@
                             <table border="0" width="88%" cellpadding="3" cellspacing="0">
                                 <tbody><tr>
                                     <td bgcolor="#FFBEBE" align="center">
-                                        <font face="geneva, arial" size="-1"><b>Welcome,</b><br>
-                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php/*Code login closed source*/?></b></font><br><img src="src/imgeo/new3.gif">
+                                    <hr size="0.5" width="60">
+                                    <a href="user">
+                                        <img src="profile/<?php /*Code closed source*/?>" width = 100><br>
+                                    </a>
                                         <hr size="0.5" width="60">
-                                        <a href="signout.php">Sign Out</a></font>
+                                        <font face="geneva, arial" size="+1" color="#FF0000"><b><?php echo $row["username"]; ?></b></font><br><img src="src/imgeo/new3.gif">
+                                        <hr size="0.5" width="60">
+                                        <a href="signout">Sign Out</a></font>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -56,10 +62,10 @@
                                 <a href="http://filesandreiixe.infinityfreeapp.com/">Andreiixe Files</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="feedback.php">Feedback</a>
+                                <a href="feedback">Feedback</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
-                                <a href="linkus.php">Link to Us</a>
+                                <a href="linkus">Link to Us</a>
                                 <font size="+1">&nbsp;</font>
                                 <br>
                                 <a href="src/txt/Builds.txt">Updates</a>
@@ -75,10 +81,7 @@
                             Host provided by
                             <a href="http://www.awardspace.com/">AwardSpace</a>
                         </font>
-                        <!--/Host Link-->
-                        <p>
-                            <img src="src/Imagesads/IE4.gif" width="108" height="31" border="0">
-                        </p>
+
                         <p>
                             <!--Copyright, Because is cool to have this-->
                             <font face="geneva, arial" size="-2">
@@ -131,7 +134,7 @@
                                     <tr>
                                         <td colspan="2">
                                             <font face="geneva, arial" size="-1">
-                                               Last updated: March 30, 2023
+                                             <?php echo "Date: " . date("l m Y") . "<br>";?>
                                             </font>
                                             <img src="src/images/punctgri.gif" width="300" height="1" vspace="3">
                                         </td>
@@ -143,7 +146,7 @@
                                             <font color="#FF0000">></font>
                                         </td>
                                         <td>
-                                            <font size="-1" face="geneva, arial">New socials? Why don't you <a href="contactme.php">look</a> where you can still message me. </font>
+                                            <font size="-1" face="geneva, arial">New socials? Why don't you <a href="contactme">look</a> where you can still message me. </font>
                                             <font size="+1">&nbsp;</font>
                                         </td>
                                     </tr>
@@ -152,7 +155,7 @@
                                             <font color="#FF0000">></font>
                                         </td>
                                         <td>
-                                            <font size="-1" face="geneva, arial">Are you looking to resume support from chrome on windows xp? <a href="DevBlog/Develop.php">That's Here</a></font>
+                                            <font size="-1" face="geneva, arial">Are you looking to resume support from chrome on windows xp? <a href="DevBlog/Develop">That's Here</a></font>
                                             <font size="+1">&nbsp;</font>
                                         </td>
                                     </tr>
@@ -176,13 +179,13 @@
                                             </tr>
                                             <tr>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
-                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="Support/IBMThinkR51e.php">Supports</a></font></td>
+                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="Support/IBMThinkR51e">Supports</a></font></td>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
-                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="DevBlog/Develop.php">Blog Develoment</a></font></td>
+                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="DevBlog/Develop">Blog Develoment</a></font></td>
                                             </tr>
                                             <tr>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
-                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="blog.php">Blog</a></font></td>
+                                                <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="blog">Blog</a></font></td>
                                                 <td><font size="+2">&nbsp;</font><font size="-1" color="#0000CC"><b>&gt;</b></font></td>
                                                 <td width="50%"><font face="arial, geneva" size="-1">&nbsp;<a href="https://github.com/andreiixe/LegalicyAndreiixe">Source Code</a></font></td>
                                             </tr>
@@ -212,11 +215,11 @@
                                                         </font>
                                                         <font size="1"><br>&nbsp;<br></font>
                                                         <nobr>
-                                                            <a href="abouttheproject.php">About the Project</a>
+                                                            <a href="abouttheproject">About the Project</a>
                                                         </nobr>
                                                         &nbsp;&nbsp;&nbsp;
                                                         <nobr>
-                                                            <a href="contactme.php">Contact Andreiixe</a>
+                                                            <a href="contactme">Contact Andreiixe</a>
                                                         </nobr>
                                                     </td>
                                                 </tr>
