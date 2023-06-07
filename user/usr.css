@@ -1,0 +1,132 @@
+.myaccount {
+    background-color: #ead8d8;
+    border-top: 1px solid #a33b3b;
+    width: 421px;
+    height: 19px;
+    margin-top: 10px;
+}
+
+.mytext {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    text-align: left;
+    margin-left: 3px;
+    color: #a33b3b;
+    font-size: 11.5px;
+    position: relative;
+    top: -13px;
+    padding-top: 3px;
+    font-weight: bolder;
+}
+
+.pfp {
+    overflow: auto;
+    float: left;
+    padding: 10px;
+    width: 150px;
+}
+
+.accfun {
+    height: 20px;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 12px;
+}
+
+.info {
+    position: relative;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    top: 10px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.accinfo {
+    font-size: 11.5px;
+    color: #a33b3b;
+    position: relative;
+    font-weight: bolder;
+    padding-left: 5px;
+    top: -14px;
+    height: 18px;
+    border-top: 0px solid #a33b3b;
+    padding-top: 1px;
+    text-align: left;
+}
+
+.reg{
+    line-height: 17px;
+    position: relative;
+    left: 5px;
+    top: -23px;
+    width: 300px;
+}
+
+gi {
+    color: #96A1A8;
+}
+.status {
+    float: left;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+.fhe{
+    border-top: 1px solid #aa3b3b;
+    text-align: left;
+    background-color: #ead8d8;
+    font-size: 13px;
+    color: #aa3b3b;
+    position: relative;
+    padding-left: 5px;
+    top: -14px;
+    width: 200px;
+    max-width: 220px;
+    height: 17px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.edit{
+    font-weight: bolder;
+    font-size: 11px;
+    display: block;
+    margin-top: -20px;
+    text-align: right;
+    position: relative;
+    right: 15px;
+    top: -23px;
+    color:#a33b3b;
+    text-decoration: none;
+}
+
+.statuspic{
+    height: 20px;
+    float: left;
+    overflow: auto;
+    position: relative;
+    top: -13px;
+    left: 20px;
+}
+
+.bio{
+    position: relative;
+    text-align: left;
+    width: 150px;
+    margin-top: -13px;
+    font-size: 11px;
+    left: 47px;
+    padding-bottom: 10px;
+}
+
+.set {
+    border-top: 1px solid #aa3b3b;
+    text-align: left;
+    background-color: #ead8d8;
+    font-size: 13px;
+    color: #aa3b3b;
+    position: relative;
+    padding-left: 5px;
+    top: -14px;
+    width: 409px;
+    max-width: 409px;
+    height: 17px;
+    margin-left: 5px;
+    font-weight: bolder;
+}

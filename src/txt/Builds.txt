@@ -1,3 +1,46 @@
+Bulid 500
+-Ended Support Legalicy Andreiixe
+-Updated Copyrite Andreiixe Dev ---> PikaDev
+
+Build 490.6
+-fixed bug dashboard Tester
+
+Build 490.5
+-added dashboard Tester
+
+Build 490
+-Update database
+-Added role
+-added Dashboard ADMIN
+-added for admin GuestBook
+-fixed bug admin on guestbook page
+
+Build 470.5
+-fixed bug search friend (user)
+
+Build 470.4
+-updated search friend (user) Beta 2 ----> Beta 3
+-added beta GuestBook
+-updated colors Login and registration
+-updated Login and registration buttons
+
+Build 470
+-Fix Exploit SQL injection
+-Improve security
+-Edited Username to name
+-added login name
+-updated search friend (user) Beta 1 ----> Beta2
+-fixed bug in Biography
+-Updated logo
+-updated buttons
+
+Build 444.1.9
+-Rebuild php files
+-Added User id
+-Fixed bugs
+-fixed redirect
+-added search user
+
 Build 444
 -added profile page
 -added Biography
